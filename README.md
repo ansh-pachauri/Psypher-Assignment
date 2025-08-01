@@ -84,12 +84,6 @@ CREATE TABLE events (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
--- Insert sample events
-INSERT INTO events (title, description, image_url, event_date, tier) VALUES
-('Free Community Concert', 'Join us for a free community concert featuring local artists.', 'https://via.placeholder.com/400x300', '2024-02-15 19:00:00', 'free'),
-('Silver Lounge Experience', 'Exclusive silver tier event with premium seating and refreshments.', 'https://via.placeholder.com/400x300', '2024-02-20 20:00:00', 'silver'),
-('Gold VIP Concert', 'Gold tier exclusive concert with meet & greet opportunities.', 'https://via.placeholder.com/400x300', '2024-02-25 21:00:00', 'gold'),
-('Platinum Ultimate Show', 'The ultimate platinum experience with front-row seats and backstage access.', 'https://via.placeholder.com/400x300', '2024-03-01 22:00:00', 'platinum');
 ```
 
 ### 5. Clerk Authentication Setup
@@ -147,30 +141,22 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 - Users are automatically assigned to `free` tier upon first sign-in
 - No manual configuration needed
 
-#### For Testing (Manual)
-1. Go to your Clerk Dashboard
-2. Navigate to Users
-3. Select a user
-4. Go to Public Metadata
-5. Add: `{"tier": "free"}` or `{"tier": "platinum"}`
 
 ## 📸 Screenshots
 
 ### Landing Page
 <!-- Add screenshot of the homepage here -->
-![Landing Page](landingpage.png)
+## Landing Page
+![Landing Page](/images/landingpage.png)
 
-### Authentication Page
-<!-- Add screenshot of Clerk sign-in page here -->
-![Authentication](clerkauth.png)
+## Authentication Page
+![Authentication](/images/clerkauth.png)
 
-### Free Tier Events Page
-<!-- Add screenshot of bookshow page with free tier events -->
-![Free Tier Events](freetier.png)
+## Free Tier Events Page
+![Free Tier Events](/images/freetier.png)
 
-### Platinum Tier Events Page
-<!-- Add screenshot of bookshow page with all events after upgrade -->
-![Platinum Tier Events](platinumtier.png)
+## Platinum Tier Events Page
+![Platinum Tier Events](/images/platinumtier.png)
 
 
 
@@ -198,22 +184,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
   - `/sign-in` - Authentication page
   - `/bookshow` - Events page (protected)
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy
-
-### Other Platforms
-
-The application can be deployed to any platform that supports Next.js:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
 
 ## 🔧 Customization
 
@@ -235,4 +205,4 @@ The application uses Tailwind CSS with custom components from shadcn/ui. Modify 
 
 ---
 
-**Happy Booking! 🎭**
+
