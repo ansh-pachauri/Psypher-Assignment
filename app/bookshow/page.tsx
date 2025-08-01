@@ -1,6 +1,5 @@
 
 
-import { SignedIn, UserButton } from "@clerk/nextjs";
 import EventsPage from "../components/minimal-card-demo";
 
 export default function Page (){
