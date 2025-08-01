@@ -150,7 +150,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ![Landing Page](/images/landingpage.png)
 
 ## Authentication Page
-![Authentication](/images/clerkauth.png)
+![Authentication](https://github.com/ansh-pachauri/Psypher-Assignment/blob/main/public/images/clerkauth.png)
 
 ## Free Tier Events Page
 ![Free Tier Events](/images/freetier.png)
