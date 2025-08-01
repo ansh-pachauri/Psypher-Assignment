@@ -147,16 +147,16 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ### Landing Page
 <!-- Add screenshot of the homepage here -->
 ## Landing Page
-![Landing Page](/images/landingpage.png)
+![Landing Page](https://github.com/ansh-pachauri/Psypher-Assignment/blob/main/public/images/landingpage.png)
 
 ## Authentication Page
 ![Authentication](https://github.com/ansh-pachauri/Psypher-Assignment/blob/main/public/images/clerkauth.png)
 
 ## Free Tier Events Page
-![Free Tier Events](/images/freetier.png)
+![Free Tier Events](https://github.com/ansh-pachauri/Psypher-Assignment/blob/main/public/images/freetier.png)
 
 ## Platinum Tier Events Page
-![Platinum Tier Events](/images/platinumtier.png)
+![Platinum Tier Events](https://github.com/ansh-pachauri/Psypher-Assignment/blob/main/public/images/platinumtier.png)
 
 
 
