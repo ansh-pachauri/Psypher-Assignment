@@ -87,7 +87,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </section>
+      </section>                                                                                                                
 
       {/* Features Section */}
       <section id="features" className="py-12 sm:py-16 md:py-20 lg:py-32">
@@ -98,7 +98,7 @@ export default function Hero() {
             </Badge>
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">Your Complete Show Experience</h2>
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-[800px] mx-auto leading-relaxed">
-              From discovery to post-show memories, we&apos;ve got every aspect of your entertainment journey covered.
+              From discovery to post-show memories, We got every aspect of your entertainment journey covered here.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function Hero() {
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100">
                   <Calendar className="h-6 w-6 text-black" />
                 </div>
-                <CardTitle>Browse & Book Shows</CardTitle>
+                <CardTitle>Browse & Book Your Shows</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
